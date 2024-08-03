@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Policy Summarizer",
+  "version": "1.0",
+  "description": "Automatically send the current URL to the backend for summarization.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+

@@ -223,7 +223,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-genai.configure(api_key='AIzaSyB722ymFP1U4wZGHR98O-8BE8moHtVOyvI')
+genai.configure(api_key='')
 
 
 def fetch_tnc_and_links(url):
